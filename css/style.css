@@ -1,0 +1,376 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hero__wrapper{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.hero__wrapper a{
+    font-family: 'Gilroy',sans-serif;
+font-size: 16px;
+font-weight: 500;
+line-height: 18.83px;
+text-align: left;
+text-decoration: none;
+color: #000;
+display: flex;
+gap: 10px;
+align-items: center;
+}
+
+.hero__wrapper button{
+    width: 270px;
+height: 40px;
+padding: 10px 15px 8px 15px;
+background: #00868A;
+border: none;
+font-family: 'Gilroy',sans-serif;
+font-size: 14px;
+font-weight: 500;
+line-height: 16.48px;
+text-align: left;
+color: #fff;
+display: flex;
+gap: 10px;
+align-items: center;
+}
+
+.google{
+    background: #4FBFA5;
+}
+
+.google__play{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.google__play ul{
+    display: flex;
+    gap: 60px;
+    list-style: none;
+}
+
+.google__play a{
+    font-family: 'Gilroy',sans-serif;
+font-size: 18px;
+font-weight: 500;
+line-height: 27px;
+text-align: left;
+    color: #fff;
+    text-decoration: none;
+}
+
+.google__play button{
+    width: 175px;
+height: 40px;
+background: #FFFFFF;
+border: none;
+font-family: 'Gilroy',sans-serif;
+font-size: 18px;
+font-weight: 500;
+line-height: 21.19px;
+text-align: center;
+color: #000;
+}
+
+.google__play__market{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+.google__play__marketing h1{
+    height: 85px;
+    font-family: 'Gilroy',sans-serif;
+font-size: 48px;
+font-weight: 700;
+line-height: 72px;
+text-align: left;
+color: #fff;
+}
+
+.google__play__marketing p{
+    height: 120px;
+    font-family: 'Gilroy',sans-serif;
+font-size: 14px;
+font-weight: 500;
+line-height: 21px;
+text-align: left;
+color: #fff;
+}
+
+.google__play__marketing button{
+    width: 163px;
+height: 50px;
+background: #00868A;
+font-family: 'Gilroy',sans-serif;
+font-size: 18px;
+font-weight: 500;
+line-height: 21.19px;
+letter-spacing: 0.05em;
+text-align: center;
+color: #fff;
+border: none;
+}
+
+.google__play__marketing img{
+    margin-left: 300px;
+    margin-top: 100px;
+}
+
+.tashkent{
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.tashkent__texnalogiya p{
+    width: 578px;
+height: 80px;
+    background: #00868A;
+font-family: 'Gilroy',sans-serif;
+font-size: 21px;
+font-weight: 500;
+line-height: 31.5px;
+text-align: center;
+color: #fff;
+padding-top: 20px;
+}
+
+.tashkent__industrings p{
+    width: 324px;
+height: 80px;
+    background: #4FBFA5;
+    font-family: 'Gilroy',sans-serif;
+font-size: 21px;
+font-weight: 500;
+line-height: 31.5px;
+text-align: center;
+color: #fff;
+padding-top: 20px;
+}
+
+.tashkent__axborot p{
+    width: 324px;
+height: 80px;
+background: #00868A;
+font-family: 'Gilroy',sans-serif;
+font-size: 21px;
+font-weight: 500;
+line-height: 31.5px;
+text-align: center;
+color: #fff;
+padding-top: 20px;
+}
+
+.uzum{
+    display: flex;
+    gap: 100px;
+}
+
+.uzum__market{
+    width: 526px;
+    background: #00868A;
+}
+
+.uzum__market__tez button{
+    width: 125px;
+height: 40px;
+opacity: 0px;
+    background: #4FBFA5;
+    border: none;
+    font-family: 'Gilroy',sans-serif;
+font-size: 18px;
+font-weight: 500;
+line-height: 21.19px;
+text-align: center;
+color: #fff;
+margin-left: 50px;
+margin-bottom: 30px;
+margin-top: 30px;
+}
+
+.uzum__market__tez h2{
+    height: 160px;
+    font-family: 'Gilroy',sans-serif;
+font-size: 30px;
+font-weight: 500;
+line-height: 45px;
+text-align: left;
+color: #fff;
+padding-left: 50px;
+}
+
+.uzum__market__tez p{
+    font-family: 'Gilroy',sans-serif;
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0.05em;
+text-align: left;
+color: #fff;
+display: flex;
+gap: 15px;
+align-items: center;
+padding-left: 50px;
+padding-bottom: 20px;
+}
+
+.footer{
+    background-image: url(./Rectangle\ 13\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: 260px 75px;
+    background-size: none;
+}
+
+.footer__treyler button{
+    width: 186px;
+height: 40px;
+background: #4FBFA5;
+border: none;
+font-family: 'Gilroy',sans-serif;
+font-size: 18px;
+font-weight: 500;
+line-height: 21.19px;
+text-align: center;
+color: #fff;
+margin-bottom: 30px;
+}
+
+.footer__treyler__btn{
+    width: 45%;
+    height: 70px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.footer__treyler__btn h3{
+    font-family: 'Gilroy',sans-serif;
+font-size: 48px;
+font-weight: 500;
+line-height: 72px;
+text-align: left;
+color: #000;
+}
+
+.footer__treyler__btn p{
+    font-family: 'Gilroy',sans-serif;
+font-size: 14px;
+font-weight: 500;
+line-height: 21px;
+text-align: left;
+color: #000;
+}
+
+.footer__treyler__btm {
+    width: 76%;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.footer__treyler__btm h2{
+    font-family: 'Gilroy',sans-serif;
+font-size: 96px;
+font-weight: 500;
+line-height: 144px;
+text-align: left;
+color: #00868A;
+}
+
+.footer__treyler__btm p{
+    font-family: 'Gilroy',sans-serif;
+font-size: 28px;
+font-weight: 500;
+line-height: 42px;
+text-align: left;
+color: #000;
+}
+
+.colgate{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.colgate__tootal{
+    width: 1610px;
+    background: #4FBFA5;
+    padding-left: 50px;
+    padding-top: 40px;
+    padding-right: 50px;
+}
+
+.colgate__tootal__paste button{
+    width: 101px;
+height: 40px;
+background: #00868A;
+border: none;
+font-family: 'Gilroy',sans-serif;
+font-size: 18px;
+font-weight: 500;
+line-height: 21.19px;
+text-align: center;
+color: #fff;
+margin-bottom: 30px;
+}
+
+.colgate__tootal__paste p{
+    height: 110px;
+    font-family: 'Gilroy',sans-serif;
+font-size: 18px;
+font-weight: 500;
+line-height: 27px;
+text-align: left;
+color: #fff;
+}
+
+.spaship{
+    width: 120%;
+    height: 151px;
+    background: #00868A;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    margin-bottom: 50px;
+}
+
+.shilimshiq{
+    background: #deeded;
+    padding-left: 50px;
+}
+
+.shilimshiq__jle h2{
+    height: 150px;
+    font-family: 'Gilroy',sans-serif;
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+text-align: left;
+color: #000;
+}
+
+.shilimshiq__jle p{
+    height: 100px;
+    font-family: 'Gilroy',sans-serif;
+font-size: 14px;
+font-weight: 500;
+line-height: 21px;
+text-align: left;
+color: #000;
+}
